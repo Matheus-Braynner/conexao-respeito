@@ -1,27 +1,42 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-button {
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+ion-button[shape="round"] {
+  border-radius: 30px;
 }
 
-#container p {
+ion-list {
+  padding: 15px;
+}
+
+ion-item {
+  margin-bottom: 10px;
+}
+
+ion-input {
   font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
 }
 
-#container a {
-  text-decoration: none;
+ion-icon[name="arrow-back-outline"] {
+  font-size: 24px;
+}
+
+ion-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+ion-toolbar {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+ion-title {
+  font-size: 12px;
+  text-align: center;
 }
