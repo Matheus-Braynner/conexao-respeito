@@ -1,3 +1,7 @@
+ion-content {
+  --background: #ffffff; /* Alterando para fundo branco */
+}
+/*lista de imputs*/
 ion-button {
   font-size: 18px;
   width: 90%;
@@ -5,38 +9,29 @@ ion-button {
   display: block;
 }
 
-ion-button[shape="round"] {
-  border-radius: 30px;
+/* Restante do seu estilo SCSS... */
+/*botão de voltar */
+ion-button {
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
-ion-list {
-  padding: 15px;
+
+ion-button[slot="end"] {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-ion-item {
-  margin-bottom: 10px;
-}
-
-ion-input {
-  font-size: 16px;
-}
-
-ion-icon[name="arrow-back-outline"] {
-  font-size: 24px;
-}
-
-ion-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-ion-toolbar {
-  background-color: #f8f8f8;
-  color: #333;
-}
-
-ion-title {
-  font-size: 12px;
-  text-align: center;
+ion-button {
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  background-color: #a783fc; /* Cor de fundo do botão */
+  color: #ffffff; /* Cor do texto do botão */
+  border-radius: 30px; /* Arredondamento das bordas */
+  margin-top: 20px; /* Espaçamento superior */
 }

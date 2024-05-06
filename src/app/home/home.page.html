@@ -1,32 +1,38 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<ion-content>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<ion-button shape="round" :botaoVoltar>
-  <ion-icon name="arrow-back-outline"></ion-icon>
-</ion-button>
-<ion-list :lista>
-  <ion-item>
-    <ion-input label="Instituição" placeholder="Digite aqui..."></ion-input>
-  </ion-item>
+  <ion-button class="botaoVoltar" shape="round" >
+    <ion-icon name="arrow-back-outline"></ion-icon>
+  </ion-button>
 
-  <ion-item >
-    <ion-input label="Matricula" placeholder="Digite aqui..."></ion-input>
-    
-  </ion-item>
+  <ion-list class="input-list">
+    <ion-item>
+      <ion-label position="floating">Instituição</ion-label>
+      <ion-input placeholder="Digite aqui..."></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Matrícula</ion-label>
+      <ion-input placeholder="Digite aqui..."></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Nome do Agressor</ion-label>
+      <ion-input placeholder="Digite aqui..."></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Onde ocorreu a violência?</ion-label>
+      <ion-input placeholder="Digite aqui..."></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Motivo da denúncia</ion-label>
+      <ion-input placeholder="Digite aqui..."></ion-input>
+    </ion-item>
+  </ion-list>
 
-  <ion-item>
-    <ion-input label="Nome do agressor" placeholder="Digite aqui..."></ion-input>
-  </ion-item>
+  <ion-button class="denunciar-btn">Denunciar</ion-button>
 
-  <ion-item>
-    <ion-input label="Onde ocorreu a violência ?" placeholder="Digite aqui..."></ion-input>
-  </ion-item>
-
-  <ion-item :motivoDenun>
-    <ion-input label="Motivo da denuncia" placeholder="Digite aqui..."></ion-input>
-  </ion-item>
-<ion-button :botao>Denunciar</ion-button>
-<ion-footer>
-  <ion-toolbar>
-    <ion-title>© 2024 Conexão Respeito. Todos os direitos reservados.</ion-title>
-  </ion-toolbar>
-</ion-footer>
+  <ion-footer>
+    <ion-toolbar>
+      <ion-title>© 2024 Conexão Respeito. Todos os direitos reservados.</ion-title>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>
