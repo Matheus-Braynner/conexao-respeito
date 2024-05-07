@@ -1,31 +1,19 @@
 ion-content {
-  --background: #ffffff; /* Alterando para fundo branco */
-}
-/*lista de imputs*/
-ion-button {
-  font-size: 18px;
-  width: 90%;
-  margin: 0 auto;
-  display: block;
+  --ion-background-color: linear-gradient(to bottom, #9465f8, #a783fc, #baa0fe, #cebdff, #e2d9ff, #ebe6ff, #f5f2ff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff); /* Alterando para fundo branco */
 }
 
-/* Restante do seu estilo SCSS... */
-/*botão de voltar */
-ion-button {
-  font-size: 18px;
-  width: 90%;
-  margin: 0 auto;
-  display: block;
-}
-
-
-ion-button[slot="end"] {
-  position: absolute;
+.botaoVoltar {
+  display:flex;
+  position: end;
+  width: 27px;
+  height: 27px;
   top: 10px;
   right: 10px;
+  
 }
 
-ion-button {
+
+.denunciar-btn {
   font-size: 18px;
   width: 90%;
   margin: 0 auto;
@@ -34,4 +22,33 @@ ion-button {
   color: #ffffff; /* Cor do texto do botão */
   border-radius: 30px; /* Arredondamento das bordas */
   margin-top: 20px; /* Espaçamento superior */
+}
+
+.input-field {
+  width: 339px;
+  position: relative;
+  margin-top: 10px;    
+  margin-bottom: 20px;
+  color: white;
+}
+
+.input-field label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: black;
+}
+
+.input-field input {
+  width: 100%;
+  height: 59px;
+  border: 1px solid purple;
+  
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+input{
+  color: #ffffff;
 }
