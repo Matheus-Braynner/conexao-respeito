@@ -1,5 +1,7 @@
 {
-  "name": "grupo_conexao",
-  "integrations": {},
-  "type": "angular"
+  "name": "Conexao Respeito",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
 }

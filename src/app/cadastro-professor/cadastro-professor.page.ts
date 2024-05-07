@@ -4,13 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-cadastro-professor',
   templateUrl: './cadastro-professor.page.html',
   styleUrls: ['./cadastro-professor.page.scss'],
+  standalone: true
 })
-export class CadastroProfessorPage implements OnInit {
+export class CadastroProfessorPage {
 
   constructor() { }
-
-  ngOnInit() {
-    console.log("component register professor")
-  }
-
 }
