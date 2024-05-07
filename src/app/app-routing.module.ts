@@ -28,6 +28,10 @@ const routes: Routes = [
     path: 'cadastro-estudante',
     loadChildren: () => import('./cadastro-estudante/cadastro-estudante.module').then( m => m.CadastroEstudantePageModule)
   },
+  {
+    path: 'cadastro-responsavel',
+    loadChildren: () => import('./cadastro-responsavel/cadastro-responsavel.module').then( m => m.CadastroResponsavelPageModule)
+  },
 ];
 
 @NgModule({
