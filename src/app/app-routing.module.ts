@@ -5,7 +5,7 @@ import { LoginComponent } from './login/login.component'; // Importe o LoginComp
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
+    loadChildren: () => import('./home/home.page').then(m => m.HomePage)
   },
   {
     path: 'login',

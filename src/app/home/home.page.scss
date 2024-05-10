@@ -1,3 +1,6 @@
+form, input, optgroup, select {
+  color: #ffffff;
+}
 ion-content {
   --ion-background-color: linear-gradient(to bottom, #9465f8, #a783fc, #baa0fe, #cebdff, #e2d9ff, #ebe6ff, #f5f2ff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff); /* Alterando para fundo branco */
 }
@@ -5,50 +8,70 @@ ion-content {
 .botaoVoltar {
   display:flex;
   position: end;
-  width: 27px;
-  height: 27px;
+  width: 30px;
+  height: 50px;
   top: 10px;
   right: 10px;
-  
+  margin-bottom: 20px;
 }
 
 
-.denunciar-btn {
-  font-size: 18px;
-  width: 90%;
-  margin: 0 auto;
-  display: block;
-  background-color: #a783fc; /* Cor de fundo do botão */
-  color: #ffffff; /* Cor do texto do botão */
-  border-radius: 30px; /* Arredondamento das bordas */
-  margin-top: 20px; /* Espaçamento superior */
-}
+
 
 .input-field {
-  width: 339px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  margin-top: 10px;    
+  margin-top: 30px;    
   margin-bottom: 20px;
-  color: white;
+  color: #333;
 }
 
 .input-field label {
   position: absolute;
   top: -20px;
-  left: 0;
-  color: black;
+  left:50px ;
+  
+  
+  
+  
 }
 
 .input-field input {
-  width: 100%;
+  width: 278px;
   height: 59px;
-  border: 1px solid purple;
-  
+  border: 1px solid;
   border-radius: 10px;
   padding: 10px;
   box-sizing: border-box;
   font-size: 16px;
 }
-input{
-  color: #ffffff;
+.denunciar-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 359px;
+  height: 59px;
+  margin: 0 auto;
+  display: block;
+  background-color: #a783fc; /* Cor de fundo do botão */
+  color: #ffffff; /* Cor do texto do botão */
+  border-radius: 30px; /* Arredondamento das bordas */
+  margin-top: 50px; /* Espaçamento superior */
+}
+ion-footer{
+  
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+}
+h1{
+  font-size: 14px;
 }
