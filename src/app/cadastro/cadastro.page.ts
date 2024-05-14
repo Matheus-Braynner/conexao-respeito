@@ -38,7 +38,6 @@ export class CadastroPage {
         break;
     }    
   }
-
   onChangeUserType() {
   }
 }
